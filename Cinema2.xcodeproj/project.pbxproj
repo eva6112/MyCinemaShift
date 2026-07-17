@@ -6,30 +6,41 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1371DB6C300A152800CE9E1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1371DB5B300A152800CE9E1B /* Assets.xcassets */; };
+		1371DB6E300A152800CE9E1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1371DB62300A152800CE9E1B /* LaunchScreen.storyboard */; };
+		1371DB6F300A152800CE9E1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1371DB64300A152800CE9E1B /* Main.storyboard */; };
+		1371DB70300A152800CE9E1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1371DB5A300A152800CE9E1B /* AppDelegate.swift */; };
+		1371DB71300A152800CE9E1B /* Cells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1371DB5C300A152800CE9E1B /* Cells.swift */; };
+		1371DB72300A152800CE9E1B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1371DB5D300A152800CE9E1B /* Extensions.swift */; };
+		1371DB73300A152800CE9E1B /* FilmDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1371DB5E300A152800CE9E1B /* FilmDetailsViewController.swift */; };
+		1371DB74300A152800CE9E1B /* FilmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1371DB5F300A152800CE9E1B /* FilmsViewController.swift */; };
+		1371DB75300A152800CE9E1B /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1371DB65300A152800CE9E1B /* Models.swift */; };
+		1371DB76300A152800CE9E1B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1371DB66300A152800CE9E1B /* NetworkManager.swift */; };
+		1371DB77300A152800CE9E1B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1371DB67300A152800CE9E1B /* ProfileViewController.swift */; };
+		1371DB78300A152800CE9E1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1371DB68300A152800CE9E1B /* SceneDelegate.swift */; };
+		1371DB79300A152800CE9E1B /* TicketsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1371DB69300A152800CE9E1B /* TicketsViewController.swift */; };
+		1371DB7A300A152800CE9E1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1371DB6A300A152800CE9E1B /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		1371DB5A300A152800CE9E1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1371DB5B300A152800CE9E1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1371DB5C300A152800CE9E1B /* Cells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cells.swift; sourceTree = "<group>"; };
+		1371DB5D300A152800CE9E1B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		1371DB5E300A152800CE9E1B /* FilmDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmDetailsViewController.swift; sourceTree = "<group>"; };
+		1371DB5F300A152800CE9E1B /* FilmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsViewController.swift; sourceTree = "<group>"; };
+		1371DB60300A152800CE9E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1371DB61300A152800CE9E1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1371DB63300A152800CE9E1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1371DB65300A152800CE9E1B /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		1371DB66300A152800CE9E1B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		1371DB67300A152800CE9E1B /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		1371DB68300A152800CE9E1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1371DB69300A152800CE9E1B /* TicketsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsViewController.swift; sourceTree = "<group>"; };
+		1371DB6A300A152800CE9E1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		13D6D46D2FFF683200659B3C /* Cinema2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Cinema2.app; path = "/Users/evagolosapova/ShiftProject/Cinema2/build/Debug-iphoneos/Cinema2.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		13D6D47F2FFF683300659B3C /* Exceptions for "Cinema2" folder in "Cinema2" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 13D6D46C2FFF683200659B3C /* Cinema2 */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		13D6D46F2FFF683200659B3C /* Cinema2 */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				13D6D47F2FFF683300659B3C /* Exceptions for "Cinema2" folder in "Cinema2" target */,
-			);
-			path = Cinema2;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		13D6D46A2FFF683200659B3C /* Frameworks */ = {
@@ -42,10 +53,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1371DB6B300A152800CE9E1B /* Cinema2 */ = {
+			isa = PBXGroup;
+			children = (
+				1371DB84300A173700CE9E1B /* SupportingFiles */,
+				1371DB7D300A15B000CE9E1B /* ViewControllers */,
+				1371DB80300A169C00CE9E1B /* Models */,
+				1371DB81300A16CE00CE9E1B /* Views */,
+				1371DB7E300A166200CE9E1B /* Application */,
+				1371DB60300A152800CE9E1B /* Info.plist */,
+				1371DB85300A1A7F00CE9E1B /* Networking */,
+			);
+			path = Cinema2;
+			sourceTree = "<group>";
+		};
+		1371DB7D300A15B000CE9E1B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1371DB5E300A152800CE9E1B /* FilmDetailsViewController.swift */,
+				1371DB5F300A152800CE9E1B /* FilmsViewController.swift */,
+				1371DB67300A152800CE9E1B /* ProfileViewController.swift */,
+				1371DB69300A152800CE9E1B /* TicketsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1371DB7E300A166200CE9E1B /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				1371DB6A300A152800CE9E1B /* ViewController.swift */,
+				1371DB5A300A152800CE9E1B /* AppDelegate.swift */,
+				1371DB68300A152800CE9E1B /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		1371DB80300A169C00CE9E1B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1371DB65300A152800CE9E1B /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1371DB81300A16CE00CE9E1B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1371DB5C300A152800CE9E1B /* Cells.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1371DB84300A173700CE9E1B /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				1371DB5B300A152800CE9E1B /* Assets.xcassets */,
+				1371DB62300A152800CE9E1B /* LaunchScreen.storyboard */,
+				1371DB64300A152800CE9E1B /* Main.storyboard */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		1371DB85300A1A7F00CE9E1B /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				1371DB5D300A152800CE9E1B /* Extensions.swift */,
+				1371DB66300A152800CE9E1B /* NetworkManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 		13D6D4642FFF683200659B3C = {
 			isa = PBXGroup;
 			children = (
-				13D6D46F2FFF683200659B3C /* Cinema2 */,
+				1371DB6B300A152800CE9E1B /* Cinema2 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,9 +144,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				13D6D46F2FFF683200659B3C /* Cinema2 */,
 			);
 			name = Cinema2;
 			packageProductDependencies = (
@@ -113,6 +191,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1371DB6C300A152800CE9E1B /* Assets.xcassets in Resources */,
+				1371DB6E300A152800CE9E1B /* LaunchScreen.storyboard in Resources */,
+				1371DB6F300A152800CE9E1B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,10 +204,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1371DB70300A152800CE9E1B /* AppDelegate.swift in Sources */,
+				1371DB71300A152800CE9E1B /* Cells.swift in Sources */,
+				1371DB72300A152800CE9E1B /* Extensions.swift in Sources */,
+				1371DB73300A152800CE9E1B /* FilmDetailsViewController.swift in Sources */,
+				1371DB74300A152800CE9E1B /* FilmsViewController.swift in Sources */,
+				1371DB75300A152800CE9E1B /* Models.swift in Sources */,
+				1371DB76300A152800CE9E1B /* NetworkManager.swift in Sources */,
+				1371DB77300A152800CE9E1B /* ProfileViewController.swift in Sources */,
+				1371DB78300A152800CE9E1B /* SceneDelegate.swift in Sources */,
+				1371DB79300A152800CE9E1B /* TicketsViewController.swift in Sources */,
+				1371DB7A300A152800CE9E1B /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1371DB62300A152800CE9E1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1371DB61300A152800CE9E1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1371DB64300A152800CE9E1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1371DB63300A152800CE9E1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		13D6D4812FFF683300659B3C /* Debug */ = {
